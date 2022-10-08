@@ -1,10 +1,7 @@
-a = 5
-b = 10
+x = int(input("enter the value of x:"))
+y = int(input("enter the value of y:"))
 
-if b < a :
-    print("True")
-    
+if x < y:
+    print("YAYY")
 else:
-    print("False")
-        
-        
+    print("NAYY")            
