@@ -1,9 +1,5 @@
-a = 4
-b = 7
-if a > b:
-    print('hey')
-elif a==b :
-    print('hello')   
-else :
-    print('none')    
-    
+a = 1
+b = 2
+c = 3
+
+print("hello") if (a>b) else print("ABCD")
