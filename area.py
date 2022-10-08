@@ -1,13 +1,6 @@
 import math
-a,b,c = 6,9,14
+a,b,c = 10,8,7
 s = (a+b+c)/2
-area = (s*(s-a)*(s-b)*(s-c))
-print('sides of triangle:' ,a,b,c)
-print('area:',area,'square units')
-
-import math
-a,b,c = 10,12,14
-s = (a+b+c)/2
-area = (s*(s-a)*(s-b)*(s-c))
-print('sides of triangle:' ,a,b,c)
-print('area:' ,area,'square units')
+area = (s*(s-a)*(s-b)*(s-c))**1/2
+print('sides of triangle: ', a,b,c)
+print('area:' ,area,"square units")
