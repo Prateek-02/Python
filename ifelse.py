@@ -1,7 +1,12 @@
-length = int(input("enter the value of length:"))
-breadth = int(input("enter the value of breadth:"))
+# A company decided to give bonus of Rs1000 to 
+#employee of his/her service is more than 5 years
+#ask user their salary and year of service and print
+#the net bonus amount
 
-if length == breadth : 
-    print("this is a square")
-else:
-    print("this is not a square")            
+salary = int(input("enter the salary amount :"))
+year = int(input("enter the year of service:"))
+if year > 3 :
+    print("He/She is eligible for the bonus of Rs1000")
+    print("salary afrer bonus is Rs:" , salary + 1000)
+else :
+    print("He/She is not elegible")    
