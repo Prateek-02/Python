@@ -5,7 +5,7 @@
 
 salary = int(input("enter the salary amount :"))
 year = int(input("enter the year of service:"))
-if year > 3 :
+if year >= 5 :
     print("He/She is eligible for the bonus of Rs1000")
     print("salary afrer bonus is Rs:" , salary + 1000)
 else :
