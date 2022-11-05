@@ -61,9 +61,49 @@ name("Dhoni")"""
     print("My age is: ",age)
 name("Prateek",19)"""
 
-def employee(name, salary = 10000):
+"""def employee(name, salary = 10000):
     print(name + str(salary))
 employee("Ben: ",12000)
 employee("Mike: ",15000)
-employee("Bob: ")  
+employee("Bob: ")  """
+
+"""def details(name,**data):
+    print(name)
+    for i,j in data.items():
+        print(i,j)
+details("Prateek",place = "Giridih",age = 19,number = 99999999)"""
+
+
+"""a = 10
+
+def func():
+    global a
+    print(a)
+func()
+print(a)"""
+
+"""import sys
+sys.setrecursionlimit(100)
+def hello():
+    print("Hello world")
+    hello()
+hello()"""
+
+"""def sum_recursion(num):
+    if num == 0:
+        return num
+    return num+sum_recursion(num-1)
+ans = sum_recursion(5)
+print(ans)"""
+
+def factorial(num):
+    if num == 0:
+        return 1
+    return num*factorial(num-1)
+ans = factorial(5)
+print(ans)
+    
+
+   
+ 
         
