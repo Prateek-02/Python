@@ -30,10 +30,40 @@
 sub(10,8)
 sub(17,9)""" 
 
-def multi(num1,num2):
+"""def multi(num1,num2):
     product = num1 * num2
     return product
 
 result1 = multi(2,4)
 result2 = multi(9,10)
-print(result1,result2)
+print(result1,result2)"""
+
+"""def name(myname):
+    print("my name is: " + myname)
+    
+name("Prateek")""" 
+
+"""def name(firstname, lastname):
+    print("My name is: " + firstname + ' ' + lastname)
+    
+name("Prateek","Raj")"""          
+
+"""def name(firstname = "Prateek"):
+    print("My name is: ", firstname)
+    
+name()
+name("Kohli")
+name("Rohit")    
+name("Dhoni")"""
+
+"""def name(firstname,age):
+    print("My name is: ",firstname)
+    print("My age is: ",age)
+name("Prateek",19)"""
+
+def employee(name, salary = 10000):
+    print(name + str(salary))
+employee("Ben: ",12000)
+employee("Mike: ",15000)
+employee("Bob: ")  
+        
