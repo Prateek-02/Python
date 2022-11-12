@@ -19,9 +19,31 @@
 #    for j in colors:
 #        print(j,i)
 
-name = ["ram","shyam","krishn"]
-color = ["white","brown","blue"]
-for i in name:
-    for j in color:
-        print(j,i)
+#a = int(input())
+#c = 2*a*(a+1)
+#print(c)
 
+#from re import I
+
+
+"""a = int(input())
+sum = 0
+for i in range(1, a+1):
+   sum = sum + i
+   print(sum)"""
+   
+colors = ["red","blue","red","black"] 
+cars = ["TATA","NANO","ALTO","JEEP"] 
+newlist = [x for x in cars if x != "TATA"]
+print(newlist)
+#[print(x) for x in cars]
+#newlist = []
+#for i in cars:
+#       if "A" in i:
+#              newlist.append(i)
+#print(newlist)         
+"""x = 0
+while x < len(cars):
+       print(cars[x])
+       x = x+1"""
+    
