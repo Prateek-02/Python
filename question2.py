@@ -1,4 +1,4 @@
-def add (a,b):
+"""def add (a,b):
     return a+b
 def sub(a,b):
     return a-b
@@ -16,10 +16,33 @@ b = int(input("enter the second number: "))
 if choice == "1":
     print(a,"+",b,"=",add(a,b))
 elif choice == "2":
-    print(a,"-",b"=",sub(a,b))
+    print(a,"-",b,"=",sub(a,b))
 elif choice == "3":
-    print(a,"*",b"=",multi(a,b))
+    print(a,"*",b,"=",multi(a,b))
 elif choice == "4":
-    print(a,"/",b"=",div(a,b))   
+    print(a,"/",b,"=",div(a,b)) """
+    
+"""numbers = [1,2,3,4,5]
+newlist=[]
+for i in numbers:
+    newlist.append(i**2)
+print(newlist)  """
+
+"""n = [1,2,3,4,5,2,6] 
+x = n.index(2)
+n.pop(x)
+n.insert(x,200)
+print(n)"""
+
+list1 = ["x","y","z"]
+list2 = [1,2,3]
+for i in list1:
+    list2.append(i)
+print(list2)    
+    
+
+        
+
+        
         
     
