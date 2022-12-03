@@ -14,8 +14,8 @@ print(greater5)
 
 
 list1 = [1,3,5,6,12,9,35,12,23]
-greater5 = list(map(lambda i: i**2,list1))          #map goes to each element and perform the condition
-print(greater5)
+square = list(map(lambda i: i**2,list1))          #map goes to each element and perform the condition
+print(square)
 
 
 
